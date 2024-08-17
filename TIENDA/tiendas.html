@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/tidas.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontello.css">
+    
+    <title>Burger Delícia</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+                <a href="#">
+                    <img src="imagenes/logo.png" alt="logo">
+                </a>
+            </div>
+            <div type="nav__menu__btn" id="menu-btn">
+                
+                <label class="icon-menu" for="menu-btn"></label>
+              
+            </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#" class="order__now">Ordenar Ahora</a></li>
+        </ul>
+    </nav>
+
+    <header class="header__container">
+        <div class="header__image">
+            <img src="imagenes/burger.png" alt="Hambúrguer">
+        </div>
+        <div class="header__content">
+            <h5>Bienvenidos a Burger Delícia</h5>
+            <h1>Deliciosas <span>Hamburguesas </span> Hechas con Amor</h1>
+            <p>
+                Prueba nuestras hamburguesas artesanales elaboradas con los mejores ingredientes frescos. ¡Sabor y calidad que sólo podrás encontrar aquí!
+            </p>
+            <div class="links">
+                <div class="socials">
+                    <h4>ENCUÉNTRANOS</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/maik.lob.71?mibextid=ZbWKwL"><i class="ri-facebook-line"></i></a></li>
+                        <li><a href="https://x.com/OrtegaJhun22047?t=jZERXSlSM3VTFooZ47tbgA&s=09"><i class="ri-twitter-line"></i></a></li>
+                        <li><a href="https://www.instagram.com/maik.lob.71?igsh=MXNjY2JrM2cyNmR2ZQ=="><i class="ri-instagram-line"></i></a></li>
+                    </ul>
+                </div>
+                <div class="skills">
+             <h4>NUESTRAS ESPECIALIDADES</h4>
+                 <ul>
+                    <li><a href="#"><i class="ri-heart-line"></i></a></li>
+                    <li><a href="#"><i class="ri-cup-line"></i></a></li>
+                    <li><a href="#"><i class="ri-restaurant-line"></i></a></li>
+                    
+                  </ul>
+               </div>
+            </div>
+        </div>
+    </header>
+    <section class="about-us">
+    <div class="about-us__container">
+        <h2>Sobre nosotros</h2>
+        <p>
+            En Burger Delícia, nos dedicamos a crear las hamburguesas más frescas y sabrosas que jamás hayas probado. Sólo utilizamos los mejores ingredientes y nuestras recetas se desarrollan con mucho amor y cuidado. Nuestro compromiso es brindar una experiencia gastronómica única en un ambiente acogedor. ¡Ven a visitarnos y descubre por qué somos la opción favorita de los amantes de las hamburguesas!
+        </p>
+    </div>
+</section>
+<section class="menu">
+    <div class="menu__container">
+        <h2>Nuestro menú</h2>
+        <div class="menu__items">
+            <div class="menu__item">
+                <img src="imagenes/classic_burger.png" alt="Hambúrguer Clássico">
+                <h3>Hamburguesa Clásica</h3>
+                <p>Pan fresco, carne jugosa, queso derretido, lechuga, tomate y salsa especial.</p>
+            </div>
+            <div class="menu__item">
+                <img src="imagenes/chicken_burger.png" alt="Hambúrguer de Frango">
+                <h3>hamburguesa de pollo</h3>
+                <p>Pan integral, filete de pollo a la plancha, queso, lechuga, tomate y mayonesa de hierbas.</p>
+            </div>
+            <div class="menu__item">
+                <img src="imagenes/veggie_burger.png" alt="Vegetariano">
+                <h3>Vegetariano</h3>
+                <p>Pan de semillas, hamburguesa de garbanzos, lechuga, tomate, cebolla morada y salsa yogurt.</p>
+            </div>
+            <div class="menu__item">
+                <img src="imagenes/fries.png" alt="Batatas Fritas">
+                <h3>Papas fritas</h3>
+                <p>Papas fritas crujientes servidas con ketchup o mayonesa.</p>
+            </div>
+            <div class="menu__item">
+                <img src="imagenes/soda.png" alt="Refrigerantes">
+                <h3>Bebidas sin alcohol</h3>
+                <p>Variadas opciones de refrescos para acompañar tu merienda.</p>
+            </div>
+            <div class="menu__item">
+                <img src="imagenes/milkshake.png" alt="Milkshake">
+                <h3>Batido de leche</h3>
+                <p>Deliciosos batidos en sabores de chocolate, vainilla y fresa.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact">
+    <div class="contact__container">
+        <h2>Contacto</h2>
+        <p>Por favor contáctenos para cualquier pregunta, sugerencia o comentario.</p>
+        <form action="#" method="POST" class="contact__form">
+            <div class="form__group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form__group">
+                <label for="email">Correo Electronico</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form__group">
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__about">
+            <h3>Sobre nosotros</h3>
+            <p>
+                En Burger Delícia, nos dedicamos a crear las hamburguesas más frescas y sabrosas que jamás hayas probado. Sólo utilizamos los mejores ingredientes y nuestras recetas se desarrollan con mucho amor y cuidado.
+            </p>
+        </div>
+        <div class="footer__links">
+            <h3>Links Rápidos</h3>
+            <ul>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Ordenar Ahora</a></li>
+            </ul>
+        </div>
+        <div class="footer__contact">
+            <h3>Contacto</h3>
+            <ul>
+                <li><i class="ri-map-pin-line"></i> Calle dos Hambúrgueres, 123</li>
+                <li><i class="ri-phone-line"></i> (+591) 63856403 </li>
+                <li><i class="ri-mail-line"></i> jhunioortega870@gmail.com</li>
+            </ul>
+        </div>
+        <div class="footer__socials">
+            <h3>Redes sociales</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/maik.lob.71?mibextid=ZbWKwL"><i class="ri-facebook-line "></i></a></li>
+                <li><a href="https://x.com/OrtegaJhun22047?t=jZERXSlSM3VTFooZ47tbgA&s=09"><i class="ri-twitter-line"></i></a></li>
+                <li><a href="https://www.instagram.com/maik.lob.71?igsh=MXNjY2JrM2cyNmR2ZQ=="><i class="ri-instagram-line"></i></a></li>
+                <li><a href="https://maps.app.goo.gl/1cnFgmGXaX64BzKw7"><i class="ri-map-pin-line"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <p>&copy; 2024 Burger Delícia. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
